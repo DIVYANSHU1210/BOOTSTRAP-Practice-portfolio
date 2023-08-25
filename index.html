@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class = "bg-primary text-white text-center p-5">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I showcase my projects and skills here.</p>
+      </section>
+
+      <section class="container">
+        <h3 class = "text-center mt-5">About me</h3>
+        <div class="d-flex align-items-center">
+            <div class="col-lg-4 col-md-12">           
+                <img width = 300px src="https://images.unsplash.com/photo-1620067925093-801122ac1408?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1915&q=80" alt="profile picture">
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <p class = "ps-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo facere enim libero? Repudiandae, eaque! Excepturi, ut iure! Fugit dicta sunt ipsa ratione nulla voluptas repudiandae quas obcaecati, numquam necessitatibus aperiam est velit soluta impedit! Quaerat recusandae laboriosam voluptatum cumque. Culpa quisquam sed fugiat excepturi maiores? Saepe laudantium assumenda quibusdam atque. iste dolores vitae nesciunt earum quos totam deserunt itaque nam exercitationem!</p>
+            </div>       
+        </div>
+      </section>
+
+      <section class = "bg-light mt-5">
+        <div class="container pt-5">
+            <h3 class = "text-center">Portfolio</h3>
+            <div class="row">
+                <div class= "col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="card-img-top" alt="coding image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class= "col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <div class="card" >
+                        <img src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="card-img-top" alt="coding image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class= "col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <div class="card" >
+                        <img src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="card-img-top" alt="coding image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="form py-3">
+        <h3 class = "text-center">Contact</h3>
+        <div class = "row">
+            <div class = "col-4 mx-auto align-items-center">
+                <form class="d-flex flex-column w-100 justify-content-center">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id = "name" class="form-control" placeholder="ABC">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id = "email" class="form-control" placeholder="abc@gmail.com">
+                    <p class = "form-text">dont worry we will not share with anyone</p>
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id = "name" class="form-control" placeholder="ABC">
+                    <label class="form-label">Address</label>
+                    <textarea type="text" class="form-control" placeholder="write your address"></textarea>
+                    <button class="btn btn-primary mt-3 w-50 mx-auto">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+      </section>
+
+      <p class = "bg-dark text-center text-white p-4 mb-0">© 2023 My Portfolio. All rights reserved.</p>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
